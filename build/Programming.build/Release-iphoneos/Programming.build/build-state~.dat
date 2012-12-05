@@ -1,0 +1,1186 @@
+TProgramming
+v7
+r0
+t297289517.494567
+cCheck dependencies
+cCpResource build/Release-iphoneos/Programming.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Info.plist Programming-Info.plist
+cCompileXIB /Users/ishaan/Dropbox/Projects/Programming/MainWindow.xib
+cCompileXIB /Users/ishaan/Dropbox/Projects/Programming/DetailView.xib
+cCopyPNGFile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Icon.png Icon.png
+cCompileXIB /Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.xib
+cCpResource build/Release-iphoneos/Programming.app/Inconsolata.ttf Inconsolata.ttf
+cProcessPCH /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch.gch Programming_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Programming.momd /Users/ishaan/Dropbox/Projects/Programming/Programming.xcdatamodeld
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/main.o /Users/ishaan/Dropbox/Projects/Programming/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ProgrammingAppDelegate.o /Users/ishaan/Dropbox/Projects/Programming/Classes/ProgrammingAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/RootViewController.o /Users/ishaan/Dropbox/Projects/Programming/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/DetailViewController.o /Users/ishaan/Dropbox/Projects/Programming/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Program.o /Users/ishaan/Dropbox/Projects/Programming/Program.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/NewProgramViewController.o /Users/ishaan/Dropbox/Projects/Programming/Classes/NewProgramViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGPopoverManager.o /Users/ishaan/Dropbox/Projects/Programming/IGPopoverManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormSection.o /Users/ishaan/Dropbox/Projects/Programming/IGFormSection.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormTextField.o /Users/ishaan/Dropbox/Projects/Programming/IGFormTextField.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormViewController.o /Users/ishaan/Dropbox/Projects/Programming/IGFormViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormRadioOption.o /Users/ishaan/Dropbox/Projects/Programming/IGFormRadioOption.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/NSString+IGExtensions.o /Users/ishaan/Dropbox/Projects/Programming/NSString+IGExtensions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/SplitViewController.o /Users/ishaan/Dropbox/Projects/Programming/Classes/SplitViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIAuthenticationDialog.o /Users/ishaan/Dropbox/Projects/Programming/ASIAuthenticationDialog.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIFormDataRequest.o /Users/ishaan/Dropbox/Projects/Programming/ASIFormDataRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIHTTPRequest.o /Users/ishaan/Dropbox/Projects/Programming/ASIHTTPRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIInputStream.o /Users/ishaan/Dropbox/Projects/Programming/ASIInputStream.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASINetworkQueue.o /Users/ishaan/Dropbox/Projects/Programming/ASINetworkQueue.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASINSStringAdditions.o /Users/ishaan/Dropbox/Projects/Programming/ASINSStringAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Reachability.o /Users/ishaan/Dropbox/Projects/Programming/Reachability.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/TFHpple.o /Users/ishaan/Dropbox/Projects/Programming/TFHpple.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/TFHppleElement.o /Users/ishaan/Dropbox/Projects/Programming/TFHppleElement.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/XPathQuery.o /Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ResultViewController.o /Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessProductPackaging "/Users/ishaan/Library/MobileDevice/Provisioning Profiles/D64162DF-FDA1-430A-879D-F94BD8631168.mobileprovision" /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/embedded.mobileprovision
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming.xcent
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
+c000000004BB1FA0A0000000000000110
+t1269955082
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+c000000004B9F103D00000000000000DD
+t1268715581
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+c000000004B9F103D00000000000001E5
+t1268715581
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004B9F269700000000001EC0F0
+t1268721303
+s2015472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004B9F262A00000000000004CF
+t1268721194
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004B9F274300000000002B9970
+t1268721475
+s2857328
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B9F2725000000000000046B
+t1268721445
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004B9F24F80000000000000A99
+t1268720888
+s2713
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AC100000000003B4B70
+t1268792001
+s3885936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F26D2000000000036A650
+t1268721362
+s3581520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F26B90000000000001355
+t1268721337
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004B9F27CB00000000000000EB
+t1268721611
+s235
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004B9F27CC00000000000A1670
+t1268721612
+s661104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004B9F25E40000000000001A78
+t1268721124
+s6776
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004B9F25FD000000000008B5F0
+t1268721149
+s570864
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B9F318D000000000000098F
+t1268724109
+s2447
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B9F32090000000002703230
+t1268724233
+s40907312
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/Availability.h
+c000000004B9F27C60000000000001A1A
+t1268721606
+s6682
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/arpa/inet.h
+c000000004B9F13220000000000001533
+t1268716322
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/ifaddrs.h
+c000000004B9F132D0000000000000782
+t1268716333
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/netdb.h
+c000000004B9F134C000000000000307F
+t1268716364
+s12415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/netinet/in.h
+c000000004B9F1BC8000000000000539D
+t1268718536
+s21405
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/netinet6/in6.h
+c000000004B9F1BC70000000000004F5B
+t1268718535
+s20315
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/stdio.h
+c000000004B9F135D0000000000004174
+t1268716381
+s16756
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/sys/socket.h
+c000000004B9F1BE000000000000059BC
+t1268718560
+s22972
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/zlib.h
+c000000004B9F172600000000000102A5
+t1268717350
+s66213
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/lib/libz.1.2.3.dylib
+c000000004B9F17270000000000020FF0
+t1268717351
+s135152
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASIAuthenticationDialog.h
+c000000004BB48C230000000000000388
+t1270123555
+s904
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASIAuthenticationDialog.m
+c000000004BB48C230000000000002124
+t1270123555
+s8484
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASIFormDataRequest.h
+c000000004BB48C230000000000000737
+t1270123555
+s1847
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASIFormDataRequest.m
+c000000004BB48C23000000000000262F
+t1270123555
+s9775
+i"ASIFormDataRequest.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASIHTTPRequest.h
+c000000004BB48C230000000000007F30
+t1270123555
+s32560
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASIHTTPRequest.m
+c000000004BB48C23000000000002260E
+t1270123555
+s140814
+i"ASIHTTPRequest.h"
+i<zlib.h>
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASIHTTPRequestConfig.h
+c000000004BB912BC0000000000000832
+t1270420156
+s2098
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASIInputStream.h
+c000000004BB48C2300000000000003C9
+t1270123555
+s969
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASIInputStream.m
+c000000004BB48C230000000000000BF0
+t1270123555
+s3056
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASINSStringAdditions.h
+c000000004BB48C230000000000000173
+t1270123555
+s371
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASINSStringAdditions.m
+c000000004BB48C23000000000000030B
+t1270123555
+s779
+i"ASINSStringAdditions.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASINetworkQueue.h
+c000000004BB48C2300000000000014CA
+t1270123555
+s5322
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/ASINetworkQueue.m
+c000000004BB48C23000000000000316D
+t1270123555
+s12653
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/DetailViewController.h
+c000000004BC9F8B50000000000000315
+t1271527605
+s789
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/DetailViewController.m
+c000000004BCA4F880000000000002D42
+t1271549832
+s11586
+i"IGPopoverManager.h"
+i"DetailViewController.h"
+i"ResultViewController.h"
+i"Program.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/NewProgramViewController.h
+c000000004BB8DA2E00000000000001B6
+t1270405678
+s438
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"IGFormViewController.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/NewProgramViewController.m
+c000000004BC9EB630000000000000782
+t1271524195
+s1922
+i"NSString+IGExtensions.h"
+i"NewProgramViewController.h"
+i"Program.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/ProgrammingAppDelegate.h
+c000000004BB916000000000000000519
+t1270420992
+s1305
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/ProgrammingAppDelegate.m
+c000000004BB908F90000000000001399
+t1270417657
+s5017
+i"ProgrammingAppDelegate.h"
+i"RootViewController.h"
+i"DetailViewController.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.h
+c000000004BB921A60000000000000257
+t1270423974
+s599
+i<UIKit/UIKit.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.m
+c000000004BCA4AC1000000000000075D
+t1271548609
+s1885
+i"ResultViewController.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.xib
+c000000004BCA4D080000000000005AB9
+t1271549192
+s23225
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/RootViewController.h
+c000000004BBBA7CA0000000000000327
+t1270589386
+s807
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/RootViewController.m
+c000000004BC9E93C0000000000002C04
+t1271523644
+s11268
+i"IGPopoverManager.h"
+i"RootViewController.h"
+i"DetailViewController.h"
+i"NewProgramViewController.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/SplitViewController.h
+c000000004BB9067A00000000000001C8
+t1270417018
+s456
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/Classes/SplitViewController.m
+c000000004BB907DC0000000000000594
+t1270417372
+s1428
+i"SplitViewController.h"
+i"RootViewController.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/DetailView.xib
+c000000004BC9ECEC0000000000004E18
+t1271524588
+s19992
+
+N/Users/ishaan/Dropbox/Projects/Programming/IGFormRadioOption.h
+c000000004BB8C4B200000000000001EB
+t1270400178
+s491
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/IGFormRadioOption.m
+c000000004BB8C4CF00000000000001A5
+t1270400207
+s421
+i"IGFormRadioOption.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/IGFormSection.h
+c000000004BB7F7FC0000000000000150
+t1270347772
+s336
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/IGFormSection.m
+c000000004BB7F8100000000000000190
+t1270347792
+s400
+i"IGFormSection.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/IGFormTextField.h
+c000000004BB7F63400000000000001A3
+t1270347316
+s419
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/IGFormTextField.m
+c000000004BB7F6390000000000000243
+t1270347321
+s579
+i"IGFormTextField.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/IGFormViewController.h
+c000000004BC9E9C00000000000000741
+t1271523776
+s1857
+i<UIKit/UIKit.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/IGFormViewController.m
+c000000004BC9EB110000000000002B3F
+t1271524113
+s11071
+i"IGFormViewController.h"
+i"IGPopoverManager.h"
+i"IGFormSection.h"
+i"IGFormTextField.h"
+i"IGFormRadioOption.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/IGPopoverManager.h
+c000000004BB1931C00000000000002C3
+t1269928732
+s707
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/IGPopoverManager.m
+c000000004BB193870000000000000848
+t1269928839
+s2120
+i"IGPopoverManager.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/Icon.png
+c000000004BB8B81E0000000000000E3A
+t1270396958
+s3642
+
+N/Users/ishaan/Dropbox/Projects/Programming/Inconsolata.ttf
+c0000000047568F1A000000000000574C
+t1196855066
+s22348
+
+N/Users/ishaan/Dropbox/Projects/Programming/MainWindow.xib
+c000000004BC9F2FD0000000000008490
+t1271526141
+s33936
+
+N/Users/ishaan/Dropbox/Projects/Programming/NSString+IGExtensions.h
+c000000004BB8D94500000000000000FA
+t1270405445
+s250
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/NSString+IGExtensions.m
+c000000004BB8D97C000000000000017A
+t1270405500
+s378
+i"NSString+IGExtensions.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/Program.h
+c000000004BB91034000000000000023F
+t1270419508
+s575
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/Program.m
+c000000004BB944F50000000000000AD8
+t1270433013
+s2776
+i"ASIFormDataRequest.h"
+i"TFHpple.h"
+i"Reachability.h"
+i"NSString+IGExtensions.h"
+i"Program.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/Programming.xcdatamodeld
+c000000004BB8B5A20000000000000088
+t1270396322
+s136
+
+N/Users/ishaan/Dropbox/Projects/Programming/Programming_Prefix.pch
+c000000004BB8BD4700000000000002A4
+t1270398279
+s676
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/Reachability.h
+c000000004BB48C230000000000000F19
+t1270123555
+s3865
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/Reachability.m
+c000000004BB48C2300000000000023A7
+t1270123555
+s9127
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/TFHpple.h
+c000000004A6DD5A20000000000000685
+t1248712098
+s1669
+i<Foundation/Foundation.h>
+i"TFHppleElement.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/TFHpple.m
+c000000004A6DD5A200000000000009B4
+t1248712098
+s2484
+i"TFHpple.h"
+i"XPathQuery.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/TFHppleElement.h
+c000000004A6DD5A2000000000000074A
+t1248712098
+s1866
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/TFHppleElement.m
+c000000004A6DD5A200000000000009FD
+t1248712098
+s2557
+i"TFHppleElement.h"
+
+N/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.h
+c000000004A6DD5A20000000000000113
+t1248712098
+s275
+
+N/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m
+c000000004A6DD5A2000000000000138B
+t1248712098
+s5003
+i"XPathQuery.h"
+i<libxml/tree.h>
+i<libxml/parser.h>
+i<libxml/HTMLparser.h>
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIAuthenticationDialog.o
+t1275596709
+s72028
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIFormDataRequest.o
+t1275596709
+s33648
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIHTTPRequest.o
+t1275596717
+s294024
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIInputStream.o
+t1275596709
+s23836
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASINSStringAdditions.o
+t1275596710
+s8888
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASINetworkQueue.o
+t1275596710
+s48780
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/DetailViewController.o
+t1275596708
+s74984
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormRadioOption.o
+t1275596708
+s8588
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormSection.o
+t1275596708
+s7856
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormTextField.o
+t1275596708
+s15800
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormViewController.o
+t1275596709
+s65032
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGPopoverManager.o
+t1275596708
+s39552
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/NSString+IGExtensions.o
+t1275596709
+s6852
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/NewProgramViewController.o
+t1275596708
+s45396
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Program.o
+t1275596708
+s22996
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Programming.LinkFileList
+c000000004C080FA10000000000000D4F
+t1275596705
+s3407
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ProgrammingAppDelegate.o
+t1275596707
+s60512
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Reachability.o
+t1275596710
+s18768
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ResultViewController.o
+t1275596711
+s45048
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/RootViewController.o
+t1275596708
+s69732
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/SplitViewController.o
+t1275596709
+s42644
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/TFHpple.o
+t1275596710
+s12328
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/TFHppleElement.o
+t1275596710
+s11816
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/XPathQuery.o
+t2
+s0
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/main.o
+t1275596707
+s6424
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming.xcent
+t1275596717
+s324
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app
+t2
+s0
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app.dSYM
+t2
+s0
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/DetailView.nib
+t1275596706
+s1396
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Icon.png
+t1275596706
+s3730
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Inconsolata.ttf
+t1275596706
+s22348
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Info.plist
+t1275596705
+s1034
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/MainWindow.nib
+t1275596706
+s2118
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/PkgInfo
+t1275596705
+s8
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Programming
+t2
+s0
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Programming.momd
+t1275596707
+s136
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/ResourceRules.plist
+t1275596705
+s485
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/ResultViewController.nib
+t1275596706
+s1586
+
+N/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/embedded.mobileprovision
+t1275596717
+s7400
+
+N/Users/ishaan/Dropbox/Projects/Programming/main.m
+c000000004BB8B1A80000000000000170
+t1270395304
+s368
+i<UIKit/UIKit.h>
+
+N/Users/ishaan/Library/MobileDevice/Provisioning Profiles/D64162DF-FDA1-430A-879D-F94BD8631168.mobileprovision
+c000000004BF0006F0000000000001CE8
+t1274019951
+s7400
+
+N/var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch.gch
+t1275596707
+s9233044
+
+NProgramming-Info.plist
+c000000004BCA44690000000000000573
+t1271546985
+s1395
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies297289505#297289505#0(0"0(0#1#0"4300911832#0"0#
+
+CCodeSign /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app
+r0
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIAuthenticationDialog.o /Users/ishaan/Dropbox/Projects/Programming/ASIAuthenticationDialog.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289509.162018
+e297289509.559035
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIAuthenticationDialog.o
+x/Users/ishaan/Dropbox/Projects/Programming/ASIAuthenticationDialog.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/ishaan/Dropbox/Projects/Programming/ASIAuthenticationDialog.m297289509#297289509#0(0"0(0#0#68"/Users/ishaan/Dropbox/Projects/Programming/ASIAuthenticationDialog.m4300911832#1945"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/ASIAuthenticationDialog.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIAuthenticationDialog.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIFormDataRequest.o /Users/ishaan/Dropbox/Projects/Programming/ASIFormDataRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289509.416965
+e297289509.764380
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIFormDataRequest.o
+x/Users/ishaan/Dropbox/Projects/Programming/ASIFormDataRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/ishaan/Dropbox/Projects/Programming/ASIFormDataRequest.m297289509#297289509#0(0"0(0#0#63"/Users/ishaan/Dropbox/Projects/Programming/ASIFormDataRequest.m4300911832#1935"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/ASIFormDataRequest.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIFormDataRequest.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIHTTPRequest.o /Users/ishaan/Dropbox/Projects/Programming/ASIHTTPRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289509.559174
+e297289517.491619
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIHTTPRequest.o
+x/Users/ishaan/Dropbox/Projects/Programming/ASIHTTPRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/ishaan/Dropbox/Projects/Programming/ASIHTTPRequest.m297289509#297289517#0(0"0(0#0#59"/Users/ishaan/Dropbox/Projects/Programming/ASIHTTPRequest.m4300911832#1927"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/ASIHTTPRequest.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIHTTPRequest.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIInputStream.o /Users/ishaan/Dropbox/Projects/Programming/ASIInputStream.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289509.764486
+e297289509.944201
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIInputStream.o
+x/Users/ishaan/Dropbox/Projects/Programming/ASIInputStream.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/ishaan/Dropbox/Projects/Programming/ASIInputStream.m297289509#297289509#0(0"0(0#0#59"/Users/ishaan/Dropbox/Projects/Programming/ASIInputStream.m4300911832#1927"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/ASIInputStream.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASIInputStream.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASINSStringAdditions.o /Users/ishaan/Dropbox/Projects/Programming/ASINSStringAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289510.353270
+e297289510.421049
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASINSStringAdditions.o
+x/Users/ishaan/Dropbox/Projects/Programming/ASINSStringAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/ishaan/Dropbox/Projects/Programming/ASINSStringAdditions.m297289510#297289510#0(0"0(0#0#65"/Users/ishaan/Dropbox/Projects/Programming/ASINSStringAdditions.m4300911832#1939"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/ASINSStringAdditions.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASINSStringAdditions.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASINetworkQueue.o /Users/ishaan/Dropbox/Projects/Programming/ASINetworkQueue.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289509.944290
+e297289510.353183
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASINetworkQueue.o
+x/Users/ishaan/Dropbox/Projects/Programming/ASINetworkQueue.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/ishaan/Dropbox/Projects/Programming/ASINetworkQueue.m297289509#297289510#0(0"0(0#0#60"/Users/ishaan/Dropbox/Projects/Programming/ASINetworkQueue.m4300911832#1929"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/ASINetworkQueue.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ASINetworkQueue.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/DetailViewController.o /Users/ishaan/Dropbox/Projects/Programming/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289507.922399
+e297289508.695685
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/DetailViewController.o
+x/Users/ishaan/Dropbox/Projects/Programming/Classes/DetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/ishaan/Dropbox/Projects/Programming/Classes/DetailViewController.m297289507#297289508#0(0"0(0#0#73"/Users/ishaan/Dropbox/Projects/Programming/Classes/DetailViewController.m4300911832#1947"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/Classes/DetailViewController.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/DetailViewController.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormRadioOption.o /Users/ishaan/Dropbox/Projects/Programming/IGFormRadioOption.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289508.913304
+e297289508.986209
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormRadioOption.o
+x/Users/ishaan/Dropbox/Projects/Programming/IGFormRadioOption.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/ishaan/Dropbox/Projects/Programming/IGFormRadioOption.m297289508#297289508#0(0"0(0#0#62"/Users/ishaan/Dropbox/Projects/Programming/IGFormRadioOption.m4300911832#1933"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/IGFormRadioOption.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormRadioOption.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormSection.o /Users/ishaan/Dropbox/Projects/Programming/IGFormSection.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289508.695776
+e297289508.759333
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormSection.o
+x/Users/ishaan/Dropbox/Projects/Programming/IGFormSection.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/ishaan/Dropbox/Projects/Programming/IGFormSection.m297289508#297289508#0(0"0(0#0#58"/Users/ishaan/Dropbox/Projects/Programming/IGFormSection.m4300911832#1925"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/IGFormSection.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormSection.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormTextField.o /Users/ishaan/Dropbox/Projects/Programming/IGFormTextField.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289508.759422
+e297289508.913217
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormTextField.o
+x/Users/ishaan/Dropbox/Projects/Programming/IGFormTextField.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/ishaan/Dropbox/Projects/Programming/IGFormTextField.m297289508#297289508#0(0"0(0#0#60"/Users/ishaan/Dropbox/Projects/Programming/IGFormTextField.m4300911832#1929"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/IGFormTextField.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormTextField.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormViewController.o /Users/ishaan/Dropbox/Projects/Programming/IGFormViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289508.784151
+e297289509.416880
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormViewController.o
+x/Users/ishaan/Dropbox/Projects/Programming/IGFormViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/ishaan/Dropbox/Projects/Programming/IGFormViewController.m297289508#297289509#0(0"0(0#0#65"/Users/ishaan/Dropbox/Projects/Programming/IGFormViewController.m4300911832#1939"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/IGFormViewController.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGFormViewController.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGPopoverManager.o /Users/ishaan/Dropbox/Projects/Programming/IGPopoverManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289508.539380
+e297289508.784063
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGPopoverManager.o
+x/Users/ishaan/Dropbox/Projects/Programming/IGPopoverManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/ishaan/Dropbox/Projects/Programming/IGPopoverManager.m297289508#297289508#0(0"0(0#0#61"/Users/ishaan/Dropbox/Projects/Programming/IGPopoverManager.m4300911832#1931"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/IGPopoverManager.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/IGPopoverManager.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/NSString+IGExtensions.o /Users/ishaan/Dropbox/Projects/Programming/NSString+IGExtensions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289508.986298
+e297289509.035677
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/NSString+IGExtensions.o
+x/Users/ishaan/Dropbox/Projects/Programming/NSString+IGExtensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/ishaan/Dropbox/Projects/Programming/NSString+IGExtensions.m297289508#297289509#0(0"0(0#0#66"/Users/ishaan/Dropbox/Projects/Programming/NSString+IGExtensions.m4300911832#1941"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/NSString+IGExtensions.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/NSString+IGExtensions.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/NewProgramViewController.o /Users/ishaan/Dropbox/Projects/Programming/Classes/NewProgramViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289508.427332
+e297289508.539292
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/NewProgramViewController.o
+x/Users/ishaan/Dropbox/Projects/Programming/Classes/NewProgramViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/ishaan/Dropbox/Projects/Programming/Classes/NewProgramViewController.m297289508#297289508#0(0"0(0#0#77"/Users/ishaan/Dropbox/Projects/Programming/Classes/NewProgramViewController.m4300911832#1955"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/Classes/NewProgramViewController.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/NewProgramViewController.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Program.o /Users/ishaan/Dropbox/Projects/Programming/Program.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289508.250325
+e297289508.427242
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Program.o
+x/Users/ishaan/Dropbox/Projects/Programming/Program.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/ishaan/Dropbox/Projects/Programming/Program.m297289508#297289508#0(0"0(0#0#52"/Users/ishaan/Dropbox/Projects/Programming/Program.m4300911832#1913"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/Program.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Program.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ProgrammingAppDelegate.o /Users/ishaan/Dropbox/Projects/Programming/Classes/ProgrammingAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289507.649471
+e297289507.922314
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ProgrammingAppDelegate.o
+x/Users/ishaan/Dropbox/Projects/Programming/Classes/ProgrammingAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/ishaan/Dropbox/Projects/Programming/Classes/ProgrammingAppDelegate.m297289507#297289507#0(0"0(0#0#75"/Users/ishaan/Dropbox/Projects/Programming/Classes/ProgrammingAppDelegate.m4300911832#1951"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/Classes/ProgrammingAppDelegate.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ProgrammingAppDelegate.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Reachability.o /Users/ishaan/Dropbox/Projects/Programming/Reachability.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289510.421136
+e297289510.641593
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Reachability.o
+x/Users/ishaan/Dropbox/Projects/Programming/Reachability.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/ishaan/Dropbox/Projects/Programming/Reachability.m297289510#297289510#0(0"0(0#0#57"/Users/ishaan/Dropbox/Projects/Programming/Reachability.m4300911832#1923"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/Reachability.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/Reachability.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ResultViewController.o /Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289510.916396
+e297289511.048423
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ResultViewController.o
+x/Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.m297289510#297289511#0(0"0(0#0#73"/Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.m7074705788558470144#1947"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/ResultViewController.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/RootViewController.o /Users/ishaan/Dropbox/Projects/Programming/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289507.681372
+e297289508.250240
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/RootViewController.o
+x/Users/ishaan/Dropbox/Projects/Programming/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/ishaan/Dropbox/Projects/Programming/Classes/RootViewController.m297289507#297289508#0(0"0(0#0#71"/Users/ishaan/Dropbox/Projects/Programming/Classes/RootViewController.m4300911832#1943"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/Classes/RootViewController.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/SplitViewController.o /Users/ishaan/Dropbox/Projects/Programming/Classes/SplitViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289509.035769
+e297289509.161897
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/SplitViewController.o
+x/Users/ishaan/Dropbox/Projects/Programming/Classes/SplitViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/ishaan/Dropbox/Projects/Programming/Classes/SplitViewController.m297289509#297289509#0(0"0(0#0#72"/Users/ishaan/Dropbox/Projects/Programming/Classes/SplitViewController.m4300911832#1945"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/Classes/SplitViewController.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/SplitViewController.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/TFHpple.o /Users/ishaan/Dropbox/Projects/Programming/TFHpple.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289510.641681
+e297289510.729008
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/TFHpple.o
+x/Users/ishaan/Dropbox/Projects/Programming/TFHpple.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/ishaan/Dropbox/Projects/Programming/TFHpple.m297289510#297289510#0(0"0(0#0#52"/Users/ishaan/Dropbox/Projects/Programming/TFHpple.m4300911832#1913"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/TFHpple.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/TFHpple.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/TFHppleElement.o /Users/ishaan/Dropbox/Projects/Programming/TFHppleElement.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289510.729124
+e297289510.863304
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/TFHppleElement.o
+x/Users/ishaan/Dropbox/Projects/Programming/TFHppleElement.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/ishaan/Dropbox/Projects/Programming/TFHppleElement.m297289510#297289510#0(0"0(0#0#59"/Users/ishaan/Dropbox/Projects/Programming/TFHppleElement.m4300911832#1927"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/TFHppleElement.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/TFHppleElement.o0#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/XPathQuery.o /Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289510.863402
+e297289510.916317
+r0
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/XPathQuery.o
+x/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:11:24: error: libxml/tree.h: No such file or directory
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:12:26: error: libxml/parser.h: No such file or directory
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:13:30: error: libxml/HTMLparser.h: No such file or directory
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:14:25: error: libxml/xpath.h: No such file or directory
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:15:34: error: libxml/xpathInternals.h: No such file or directory
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:17: error: expected ')' before 'currentNode'
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:104: error: expected ')' before 'doc'
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m: In function 'PerformHTMLXPathQuery':
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:150: error: 'xmlDocPtr' undeclared (first use in this function)
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:150: error: (Each undeclared identifier is reported only once
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:150: error: for each function it appears in.)
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:150: error: expected ';' before 'doc'
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:153: error: 'doc' undeclared (first use in this function)
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:153: warning: implicit declaration of function 'htmlReadMemory'
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:153: error: 'HTML_PARSE_NOWARNING' undeclared (first use in this function)
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:153: error: 'HTML_PARSE_NOERROR' undeclared (first use in this function)
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:161: warning: implicit declaration of function 'PerformXPathQuery'
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:161: warning: initialization makes pointer from integer without a cast
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:162: warning: implicit declaration of function 'xmlFreeDoc'
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m: In function 'PerformXMLXPathQuery':
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:169: error: 'xmlDocPtr' undeclared (first use in this function)
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:169: error: expected ';' before 'doc'
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:172: error: 'doc' undeclared (first use in this function)
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:172: warning: implicit declaration of function 'xmlReadMemory'
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:172: error: 'XML_PARSE_RECOVER' undeclared (first use in this function)
+o/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:180: warning: initialization makes pointer from integer without a cast
+lSLF07#2@63"Compile /Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m297289510#297289510#0(2952"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:11:24: error: libxml/tree.h: No such file or directory/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:12:26: error: libxml/parser.h: No such file or directory/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:13:30: error: libxml/HTMLparser.h: No such file or directory/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:14:25: error: libxml/xpath.h: No such file or directory/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:15:34: error: libxml/xpathInternals.h: No such file or directory/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:17: error: expected ')' before 'currentNode'/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:104: error: expected ')' before 'doc'/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m: In function 'PerformHTMLXPathQuery':/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:150: error: 'xmlDocPtr' undeclared (first use in this function)/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:150: error: (Each undeclared identifier is reported only once/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:150: error: for each function it appears in.)/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:150: error: expected ';' before 'doc'/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:153: error: 'doc' undeclared (first use in this function)/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:153: warning: implicit declaration of function 'htmlReadMemory'/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:153: error: 'HTML_PARSE_NOWARNING' undeclared (first use in this function)/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:153: error: 'HTML_PARSE_NOERROR' undeclared (first use in this function)/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:161: warning: implicit declaration of function 'PerformXPathQuery'/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:161: warning: initialization makes pointer from integer without a cast/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:162: warning: implicit declaration of function 'xmlFreeDoc'/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m: In function 'PerformXMLXPathQuery':/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:169: error: 'xmlDocPtr' undeclared (first use in this function)/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:169: error: expected ';' before 'doc'/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:172: error: 'doc' undeclared (first use in this function)/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:172: warning: implicit declaration of function 'xmlReadMemory'/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:172: error: 'XML_PARSE_RECOVER' undeclared (first use in this function)/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m:180: warning: initialization makes pointer from integer without a cast22(4@40"Libxml/tree.h: No such file or directory297289510#0#111#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#11#0#11#0#28"*: No such file or directory0(4@42"Libxml/parser.h: No such file or directory297289510#111#113#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#12#0#12#0#28"*: No such file or directory0(4@46"Libxml/HTMLparser.h: No such file or directory297289510#224#117#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#13#0#13#0#28"*: No such file or directory0(4@41"Libxml/xpath.h: No such file or directory297289510#341#112#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#14#0#14#0#28"*: No such file or directory0(4@50"Libxml/xpathInternals.h: No such file or directory297289510#453#121#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#15#0#15#0#28"*: No such file or directory0(4@33"Expected ')' before 'currentNode'297289510#574#101#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#17#0#17#0#19"expected * before *0(4@25"Expected ')' before 'doc'297289510#675#94#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#104#0#104#0#19"expected * before *0(4@51"'xmlDocPtr' undeclared (first use in this function)297289510#863#120#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#150#0#150#0#43"'*' undeclared (first use in this function)0(4@25"Expected ';' before 'doc'297289510#1203#94#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#150#0#150#0#19"expected * before *0(4@45"'doc' undeclared (first use in this function)297289510#1297#114#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#153#0#153#0#43"'*' undeclared (first use in this function)0(22@49"Implicit declaration of function 'htmlReadMemory'297289510#1411#120#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#153#0#153#0#36"implicit declaration of function '*'0(4@62"'HTML_PARSE_NOWARNING' undeclared (first use in this function)297289510#1531#131#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#153#0#153#0#43"'*' undeclared (first use in this function)0(4@60"'HTML_PARSE_NOERROR' undeclared (first use in this function)297289510#1662#129#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#153#0#153#0#43"'*' undeclared (first use in this function)0(22@52"Implicit declaration of function 'PerformXPathQuery'297289510#1791#123#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#161#0#161#0#36"implicit declaration of function '*'0(22@56"Initialization makes pointer from integer without a cast297289510#1914#127#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#161#0#161#0#0"0(22@45"Implicit declaration of function 'xmlFreeDoc'297289510#2041#116#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#162#0#162#0#36"implicit declaration of function '*'0(4@51"'xmlDocPtr' undeclared (first use in this function)297289510#2250#120#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#169#0#169#0#43"'*' undeclared (first use in this function)0(4@25"Expected ';' before 'doc'297289510#2370#94#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#169#0#169#0#19"expected * before *0(4@45"'doc' undeclared (first use in this function)297289510#2464#114#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#172#0#172#0#43"'*' undeclared (first use in this function)0(22@48"Implicit declaration of function 'xmlReadMemory'297289510#2578#119#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#172#0#172#0#36"implicit declaration of function '*'0(4@59"'XML_PARSE_RECOVER' undeclared (first use in this function)297289510#2697#128#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#172#0#172#0#43"'*' undeclared (first use in this function)0(22@56"Initialization makes pointer from integer without a cast297289510#2825#127#0(6@55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m270404898#180#0#180#0#0"0(0#0#55"/Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m4300911832#1919"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/XPathQuery.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/XPathQuery.o1#
+
+CCompileC build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/main.o /Users/ishaan/Dropbox/Projects/Programming/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289507.546503
+e297289507.681280
+r1
+xCompileC
+xbuild/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/main.o
+x/Users/ishaan/Dropbox/Projects/Programming/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/ishaan/Dropbox/Projects/Programming/main.m297289507#297289507#0(0"0(0#0#49"/Users/ishaan/Dropbox/Projects/Programming/main.m4300911832#1907"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch -c /Users/ishaan/Dropbox/Projects/Programming/main.m -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.xib
+s297289506.125953
+e297289506.499815
+r1
+xCompileXIB
+x/Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.xib
+lSLF07#2@43"CompileXIB Classes/ResultViewController.xib297289506#297289506#0(0"0(0#0#75"/Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.xib4300911832#512"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/ResultViewController.nib /Users/ishaan/Dropbox/Projects/Programming/Classes/ResultViewController.xib0#
+
+CCompileXIB /Users/ishaan/Dropbox/Projects/Programming/DetailView.xib
+s297289505.623763
+e297289506.094300
+r1
+xCompileXIB
+x/Users/ishaan/Dropbox/Projects/Programming/DetailView.xib
+lSLF07#2@25"CompileXIB DetailView.xib297289505#297289506#0(0"0(0#0#57"/Users/ishaan/Dropbox/Projects/Programming/DetailView.xib4300911832#484"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/DetailView.nib /Users/ishaan/Dropbox/Projects/Programming/DetailView.xib0#
+
+CCompileXIB /Users/ishaan/Dropbox/Projects/Programming/MainWindow.xib
+s297289505.615005
+e297289506.125880
+r1
+xCompileXIB
+x/Users/ishaan/Dropbox/Projects/Programming/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib297289505#297289506#0(0"0(0#0#57"/Users/ishaan/Dropbox/Projects/Programming/MainWindow.xib4300911832#484"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/MainWindow.nib /Users/ishaan/Dropbox/Projects/Programming/MainWindow.xib0#
+
+CCopyPNGFile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Icon.png Icon.png
+s297289506.094388
+e297289506.406828
+r1
+xCopyPNGFile
+x/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Icon.png
+xIcon.png
+lSLF07#2@68"CopyPNGFile build/Release-iphoneos/Programming.app/Icon.png Icon.png297289506#297289506#0(0"0(0#0#51"/Users/ishaan/Dropbox/Projects/Programming/Icon.png4300911832#574"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/ishaan/Dropbox/Projects/Programming/Icon.png /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Icon.png0#
+
+CCpResource build/Release-iphoneos/Programming.app/Inconsolata.ttf Inconsolata.ttf
+s297289506.406911
+e297289506.411160
+r1
+xCpResource
+xbuild/Release-iphoneos/Programming.app/Inconsolata.ttf
+xInconsolata.ttf
+lSLF07#2@20"Copy Inconsolata.ttf297289506#297289506#0(0"0(0#0#58"/Users/ishaan/Dropbox/Projects/Programming/Inconsolata.ttf4300911832#484"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/ishaan/Dropbox/Projects/Programming/Inconsolata.ttf /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app0#
+
+CCpResource build/Release-iphoneos/Programming.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+s297289505.371622
+e297289505.614931
+r1
+xCpResource
+xbuild/Release-iphoneos/Programming.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist297289505#297289505#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist7297009443364890624#515"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app0#
+
+CDataModelVersionCompile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Programming.momd /Users/ishaan/Dropbox/Projects/Programming/Programming.xcdatamodeld
+s297289507.544797
+e297289507.649372
+r1
+xDataModelVersionCompile
+x/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Programming.momd
+x/Users/ishaan/Dropbox/Projects/Programming/Programming.xcdatamodeld
+lSLF07#2@104"DataModelVersionCompile build/Release-iphoneos/Programming.app/Programming.momd Programming.xcdatamodeld297289507#297289507#0(0"0(0#0#67"/Users/ishaan/Dropbox/Projects/Programming/Programming.xcdatamodeld4300911832#369"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/ishaan/Dropbox/Projects/Programming/Programming.xcdatamodeld /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Programming.momd0#
+
+CGenerateDSYMFile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app.dSYM /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Programming
+r0
+
+CLd /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Programming normal armv7
+r0
+
+CProcessInfoPlistFile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Info.plist Programming-Info.plist
+s297289505.412967
+e297289505.579580
+r1
+xProcessInfoPlistFile
+x/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Info.plist
+xProgramming-Info.plist
+lSLF07#2@30"Process Programming-Info.plist297289505#297289505#0(0"0(0#0#65"/Users/ishaan/Dropbox/Projects/Programming/Programming-Info.plist4300911832#600"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Programming-Info.plist -genpkginfo /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/ResourceRules.plist -o /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/Info.plist0#
+
+CProcessPCH /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch.gch Programming_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297289506.499918
+e297289507.544621
+r1
+xProcessPCH
+x/var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch.gch
+xProgramming_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Programming_Prefix.pch297289506#297289507#0(0"0(0#0#65"/Users/ishaan/Dropbox/Projects/Programming/Programming_Prefix.pch4300911832#1795"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-generated-files.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-own-target-headers.hmap -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-all-target-headers.hmap -iquote /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming-project-headers.hmap -F/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos -I/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/include -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources/armv7 -I/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/ishaan/Dropbox/Projects/Programming/Programming_Prefix.pch -o /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Programming_Prefix-ecerrklquhegynbjxufwsuwqghos/Programming_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/ishaan/Library/MobileDevice/Provisioning Profiles/D64162DF-FDA1-430A-879D-F94BD8631168.mobileprovision" /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/embedded.mobileprovision
+s297289517.491753
+e297289517.492951
+r1
+xProcessProductPackaging
+x/Users/ishaan/Library/MobileDevice/Provisioning Profiles/D64162DF-FDA1-430A-879D-F94BD8631168.mobileprovision
+x/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/ishaan/Library/MobileDevice/Provisioning Profiles/D64162DF-FDA1-430A-879D-F94BD8631168.mobileprovision" build/Release-iphoneos/Programming.app/embedded.mobileprovision297289517#297289517#0(0"0(0#0#106"/Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/embedded.mobileprovision4300911832#438"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/ishaan/Library/MobileDevice/Provisioning Profiles/D64162DF-FDA1-430A-879D-F94BD8631168.mobileprovision" -o /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming.xcent
+s297289517.493008
+e297289517.494525
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+x/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming.xcent
+lSLF07#2@189"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/Programming.build/Release-iphoneos/Programming.build/Programming.xcent297289517#297289517#0(0"0(0#0#119"/Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming.xcent4300911832#454"    cd /Users/ishaan/Dropbox/Projects/Programming    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/ishaan/Dropbox/Projects/Programming/build/Programming.build/Release-iphoneos/Programming.build/Programming.xcent0#
+
+CTouch /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app
+r0
+
+CValidate /Users/ishaan/Dropbox/Projects/Programming/build/Release-iphoneos/Programming.app
+r0
+

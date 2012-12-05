@@ -1,0 +1,17 @@
+//
+// Prefix header for all source files of the 'Programming' target in the 'Programming' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_2
+#warning "This project uses features only available in iPhone SDK 3.2 and later."
+#endif
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+	#define LANDSCAPE (([UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeLeft) || ([UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeRight))
+	#define PORTRAIT (([UIDevice currentDevice].orientation == UIDeviceOrientationPortrait) || ([UIDevice currentDevice].orientation == UIDeviceOrientationPortraitUpsideDown))
+#endif
